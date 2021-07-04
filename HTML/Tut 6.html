@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags</title>
+</head>
+
+<body>
+    <h1>
+        Forms and Input Tags
+    </h1>
+
+    <form action="backend.php">
+        <label for="Name">Name</label>
+        <div>
+            <input type="text" id="Name" name="Nametag">
+        </div>
+        <br>
+        <div>
+            <span>Role</span>: <input type="text" name="RoleTag">
+        </div>
+        <br>
+        <div>
+            <span>Email</span>: <input type="email" name="EmailTag">
+        </div>
+        <br>
+        <br>
+        <div>
+            <input type="date" name="DataTag" id="">
+        </div>
+        <br>
+        <div>
+            <input type="time" name="TimeTag" id="">
+        </div>
+        <br>
+        <div>
+            <span>Bonus</span>: <input type="number">
+        </div>
+        <br>
+        <div>
+            <span>Eligable</span>: <input type="checkbox" name="CheckTag" id="" checked>
+        </div>
+        <br>
+        <div>
+            <span>Gender</span>: Male<input type="radio" name="mygender" id=""> Female <input type="radio"
+                name="mygender" id="">
+        </div>
+        <br>
+
+        <div>
+            <textarea name="TextTag" id="" cols="90" rows="10" placeholder="Write About Yourself"></textarea>
+        </div>
+
+        <br>
+        <div>
+            <input type="submit" value="submit">
+        </div>
+        <span>Reset The Form</span>: <input type="reset" value="Reset Now">
+
+        <div>
+            <label for="cars">Car: </label>
+            <select name="selectTag" id="cars">
+                <option value="IND">Indica</option>
+                <option value="SWI" selected>Swift</option>
+                <option value="RA">Range Rover</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
+
+
+<!-- 
+    BR IS NOT MOSTLY RECOMENDED
+
+    Forms inside the forms all input tags and element are come
+
+    code like these :<form> </form>
+
+    1. Text block is used to give a text value of a particular thing in short 5 to 10 words
+    code like these :<input type="text">
+    a small textarea get come
+
+    there can be multiple types in the input type attribute some of them are 
+    [text , number , image , file , radio , checkbox , reset , submit]
+
+    2. Input Date is used to give input as data HTML help to set a suitable gui to select date
+
+    code like these :<input type="date" name="DataTag" id="">
+
+    3. Input Time is used to select time this also get proper gui to select the time
+
+    4. Number checkbox and radio button
+    [Number checkbox and radio] are all types used in the input type 
+    A. number can be only used in that particular text area
+    B. checkbox can be used to check the value or uncheck the attribute called checked can be used to default checked it 
+    C. Radiobutton can be used when you have to choose one in multiple options 
+
+    textarea is a tag used to give the text in about 15 to 100 words code is like these:
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+    BUTTONS
+    In button there are of two type submit and reset 
+    submit button is used for submiting the form at backend
+    reset button is used for reseting all the values
+
+    select tag is used to select a option 
+    code like this 
+    
+    <select name="selectTag" id="cars">
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+
+    inside the option value the value was given and the title for the select can be given in span
+
+    LABEL
+    label can be used which attribute for is given the input id when you click on the value given to the label it will automatically select or get enter in the text box
+    the lable for value and given input id should be same 
+    code like these : <label for=""></label>
+
+    div is used to divide the section of the page
+ -->
