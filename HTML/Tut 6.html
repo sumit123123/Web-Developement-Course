@@ -7,67 +7,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms and Input Tags</title>
 </head>
-
 <body>
     <h1>
         Forms and Input Tags
     </h1>
 
     <form action="backend.php">
-        <label for="Name">Name</label>
+        <label for="NameTag">Name</label>
+        
         <div>
-            <input type="text" id="Name" name="Nametag">
-        </div>
-        <br>
-        <div>
-            <span>Role</span>: <input type="text" name="RoleTag">
-        </div>
-        <br>
-        <div>
-            <span>Email</span>: <input type="email" name="EmailTag">
-        </div>
-        <br>
-        <br>
-        <div>
-            <input type="date" name="DataTag" id="">
-        </div>
-        <br>
-        <div>
-            <input type="time" name="TimeTag" id="">
-        </div>
-        <br>
-        <div>
-            <span>Bonus</span>: <input type="number">
-        </div>
-        <br>
-        <div>
-            <span>Eligable</span>: <input type="checkbox" name="CheckTag" id="" checked>
-        </div>
-        <br>
-        <div>
-            <span>Gender</span>: Male<input type="radio" name="mygender" id=""> Female <input type="radio"
-                name="mygender" id="">
-        </div>
-        <br>
-
-        <div>
-            <textarea name="TextTag" id="" cols="90" rows="10" placeholder="Write About Yourself"></textarea>
+            <input type="text" id="NameTag">
         </div>
 
         <br>
-        <div>
-            <input type="submit" value="submit">
-        </div>
-        <span>Reset The Form</span>: <input type="reset" value="Reset Now">
+
+        <label for="RollTag">Roll</label>
 
         <div>
-            <label for="cars">Car: </label>
-            <select name="selectTag" id="cars">
-                <option value="IND">Indica</option>
-                <option value="SWI" selected>Swift</option>
-                <option value="RA">Range Rover</option>
+            <input type="text" id="RollTag">
+        </div>
+
+        <br>
+
+        <label for="DateTag">DOB</label>
+
+        <div>
+            <input type="date" name="" id="DateTag">
+        </div>
+
+        <br>
+
+        <label for="SalaryTag">Salary</label>
+
+        <div>
+            <input type="number" id="SalaryTag">
+        </div>
+
+        <br>
+
+        <label for="GenderTag">Gender</label>
+
+        <div>
+            Male <input type="radio" name="GenderType" id="GenderTag"> Female <input type="radio" name="GenderType" id="GenderTag"> Lesbian <input type="radio" name="GenderType" id="GenderTag">
+        </div>
+        
+        <br>
+
+        <label for="StreamTag">Stream</label>
+
+        <div>
+            <select name="" id="StreamTag">
+                <option value="Sci">Science</option>
+                <option value="Com">Commarce</option>
+                <option value="AS">Arts</option>
             </select>
         </div>
+
+        <br>
+
+        <label for="InfoTag">Write About Your Self</label>
+
+        <div style="margin-top: 8px;">
+            <textarea style="font-family: cursive;" id="InfoTag" cols="90" rows="10"></textarea>
+        </div>
+
+        <br>
+
+        <label for="SubmitTag">
+            Submit
+        </label>
+
+        <label for="ResetTag" style="margin-left: 10px;">Reset</label>
+
+        <div>
+            <input type="submit" value="submit" id="SubmitTag">
+            <input type="reset" value="reset" id="ResetTag">
+        </div>
+
+        
     </form>
 </body>
 
@@ -126,3 +143,4 @@
 
     div is used to divide the section of the page
  -->
+ 
