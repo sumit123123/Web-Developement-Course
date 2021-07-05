@@ -1,0 +1,41 @@
+/* 
+Selector are used to find the element 
+Selector are used to target the element
+
+CSS Selectors
+
+1. CSS ELEMENT SELECTOR
+2. CSS ID SELECTOR
+3. CSS CLASS SELECTOR
+4. CSS GROUPING SELECTOR
+
+*/
+
+/* 1. Element Selector */
+
+p{
+    color: red;
+}
+
+/* All paragraph get the p tag css properties */
+
+/* 2. Id selector */
+
+#ParaLorem{
+    color: green;
+}
+
+/*The CSS ID selector matches an element based on the value of the element's id attribute.*/
+/* 3. Class Selector */
+
+.P1{
+    color: rgba(255, 255, 2);
+}
+
+/* A CSS class is an attribute used to define a group of HTML elements in order to apply unique formatting to those elements in CSS. ... Meaning */
+
+/* Grouping selector */
+
+footer,span {
+    background-color: pink;
+}

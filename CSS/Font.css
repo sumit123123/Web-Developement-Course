@@ -1,0 +1,27 @@
+p{
+    /* font-family: cursive; */
+    font-family: Yomogi;
+    font-size: 45px;
+    line-height: 100px;
+    /* font-weight: bold; */
+    
+}
+/*
+web sefe font 
+wetsefefont are font which are not pre install fonts 
+*/
+
+/* font stack  */
+
+/* 
+font stack = 'Courier New', Courier, monospace
+if first font style not their then jump onto another font
+*/
+
+/* px unit - 1/96th  of  inch  */
+
+span{
+
+    font-weight: bold;
+    font-style: italic;
+}
