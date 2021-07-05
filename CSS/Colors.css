@@ -1,0 +1,14 @@
+#FirstPara{
+    color: red; /* Color By name*/
+
+}
+
+.secondPara{
+    color: rgb(41, 238, 41); /* Color by RGB*/
+}
+
+.ThirdPara{
+    color: #8b99f7; /* Color by Hexa form */
+    background-color: rgb(95, 72, 72);
+}
+
