@@ -1,0 +1,28 @@
+body{
+    font-family: 'Pacifico', cursive;
+    font-size: large;
+}
+
+.inputfields{
+    font-size: large;
+    width: 10cm;
+    padding: 10px;
+    margin-top: 1px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.space{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.regbuttons{
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-right: 7px;
+}
