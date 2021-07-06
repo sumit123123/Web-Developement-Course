@@ -3,7 +3,7 @@
     height: 100px;
     width: 455px;
     border-color: green;
-    border-style: solid;
+    border-style: dashed;
     border-width: 18px;
     border-radius: 27px;
 
@@ -32,5 +32,32 @@
     background-image: url("/HTML/Images/Image1.jpg");
     border: 2px solid red;
     background-repeat: no-repeat; /* repeat-x and repeat-y is repeat in the x and y axis*/
-    background-position: center center;
+    background-position: bottom center;
 }
+
+
+/* 
+PROPERTIES
+1. background-color - gives the element a background color 
+2. height - gives the element a height
+3. width - gives the element a width
+4. border-color - gives the border a color
+5. border-style - gives the border a style eg [solid,dashed]
+6. border-width - gives the width to the border
+7. border-radius - gives the curve to the border
+8. write these all propety color width and style like these 
+code :- border: 18px solid green
+
+9. border-top - gives the css properties top of the border
+10. border-left - gives the css properties to the left fo the border
+11. Like these their are border-right & border-bottom
+
+12 border-top-left-radius - gives the top left of the border a radius 
+13 like these their is [bottom-right , bottom-left , top-left]
+
+14. background-mage:url() - image location can be given here it can be your local storage or it can be using a link
+15. background-repeat - help to do not repeat the images or repeat in x and y axis
+16. background-position - help to position the image by x and y axis 
+like code :- background-position:top center;
+ohter position like [bottom left,bottom right,bottom center,top left,top right]
+*/
