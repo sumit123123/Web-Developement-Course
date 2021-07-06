@@ -1,0 +1,45 @@
+*{
+    font-family: Yomogi;
+    font-weight: bolder;
+}
+
+.container{
+    text-align: center;
+    width: 900px;
+    border: 2px solid red;
+    margin: 34px auto; /* Sets the same margin in Left and  Right*/
+}
+
+.items{
+    border: 2px solid grey;
+    margin-top: 12px;
+    padding: 12p 3px;
+    background-color: hotpink;
+}
+
+#fruits{
+    width: 50%;
+    text-align: ;
+    float: left;
+}
+
+
+/* 
+float is css property use to float an element at the left or rigth 
+code :- float: right; not the id or class elements will float to right 
+but here a problem when these element started floating any other element come between them they will overlaped on them.
+
+To handle these problem the element which come just use property clear:left or right or both
+these help the element which have the float value the did not try to overlaped on you
+
+code - clear: left;
+
+Text-Allignment
+
+text allignment is css property used to alligen the text comes under the id class or univarsal selector or an tag
+code - text-allign: center;
+
+options are 
+[center ,  end ,  justify , left , right]
+
+*/
