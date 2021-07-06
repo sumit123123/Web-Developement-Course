@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: cursive;
+}
+
+.container{
+    margin: 15px;
+    border: 2px solid black;
+    padding-left: 22px;
+    padding-right: 5px;
+    width: 223px;
+    padding-bottom: 7px;
+    margin-left: 534px;
+}
+
