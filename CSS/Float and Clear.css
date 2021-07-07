@@ -1,26 +1,36 @@
 *{
     font-family: Yomogi;
     font-weight: bolder;
+    box-sizing: border-box;
 }
 
 .container{
-    text-align: center;
-    width: 900px;
-    border: 2px solid red;
-    margin: 34px auto; /* Sets the same margin in Left and  Right*/
+    width: 600px;
+    border: 2px solid violet;
+    margin: 33px auto ;
+
 }
 
-.items{
-    border: 2px solid grey;
-    margin-top: 12px;
-    padding: 12p 3px;
-    background-color: hotpink;
+.item{
+    border: 3px solid red;
+    margin: 33px 13px;
+    padding: 12px 15px;
+    
 }
 
 #fruits{
-    width: 50%;
-    text-align: ;
     float: left;
+    width: 50%;
+}
+
+#Computer{
+    float: right;
+    width: 50%;
+}
+
+#stationary{
+    clear: both;
+    width: 100%;
 }
 
 
