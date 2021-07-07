@@ -1,0 +1,57 @@
+*{
+    font-family: Yomogi;
+}
+
+.container{
+    border: 2px solid red;
+    background-color: rgb(140, 248, 248);   
+    padding-left: 15px;
+    width: 666px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    background-color: yellow;
+} /* These type sudo property*/
+
+a:visited{
+    
+}
+
+a:active{
+    background-color: darkblue;
+}
+
+.btn{
+    background-color: crimson;
+    padding: 6px;
+    margin: 12px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 27px;
+
+}
+
+
+/* 
+
+HTML Code
+
+ <div class="container" id="cont3">
+        <h1>Buttons and Link Styling</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam aliquam molestias repudiandae tempora maiores fuga?</p>
+
+        <a href="https://www.google.com" class="btn">Read more</a>
+        <div>
+            <button class="btn">
+                Contact US
+            </button>
+        </div>
+    </div>
+ */

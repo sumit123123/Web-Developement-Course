@@ -1,0 +1,11 @@
+*{
+    font-family: Yomogi;
+}
+
+.navbar{
+    background: lightblue;
+}
+
+.Navoptions{
+    float: left;
+}
