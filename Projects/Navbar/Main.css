@@ -1,0 +1,32 @@
+*{
+    font-family: cursive;
+}
+
+.item{
+    float: left;
+    display: inline;
+    color: white;
+    padding-left: 44px;
+    position: relative;
+    bottom: 24px;
+    
+}
+
+.navbar{
+    background-color: rgb(219, 246, 99);
+    overflow: auto;
+    border-radius: 30px;
+}
+
+a{
+    color: rgb(246, 96, 27);
+    text-decoration: none;
+}
+
+h4{
+    display: inline;
+    position: relative;
+    top: 17px;
+    color: rgb(230, 34, 34);
+    left: 15px;
+}

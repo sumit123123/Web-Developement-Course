@@ -1,0 +1,27 @@
+*{
+    font-family: cursive;
+}
+
+.container{
+    text-align: center;
+    border: 100px solid red;
+    width: 555px;
+    margin-left: 45px;
+    padding: 225px;
+    box-sizing: border-box;
+}
+
+/* 
+Using the property border box 
+
+The content inside the width gets comming smaller but no width get more
+
+code :- border-sizing:border-box;
+
+
+HTML CODE 
+<div class="container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum totam doloremque dolorum nulla cupiditate veniam! Et vitae doloremque iusto dolor maxime quam atque? Velit provident ullam debitis impedit, neque, adipisci id enim a asperiores culpa eveniet molestiae! Qui, iste explicabo, reprehenderit esse debitis beatae omnis minus, temporibus laboriosam deleniti id cum. Harum laboriosam voluptas iste!</p>
+    </div>
+*/
+

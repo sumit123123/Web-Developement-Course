@@ -53,3 +53,30 @@ options are
 [center ,  end ,  justify , left , right]
 
 */
+
+
+
+/*
+htmlcode
+<div class="container">
+            <div class="item" id="fruits">
+                <h3>Fruits</h3>
+                <p id="fruitspara" class="para">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat maxime omnis vel voluptate.lorem34 Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti recusandae vero pariatur. Amet, soluta rerum?
+                </p>
+            </div>
+
+            <div class="item" id="Computer">
+                <h3>Computer</h3>
+                <p id="computerpara" class="para">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat maxime omnis vel voluptate.lorem34 Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti recusandae vero pariatur. Amet, soluta rerum?
+                </p>
+            </div>
+
+            <div class="item" id="stationary">
+                <h3>Stationary</h3>
+                <p id="stationarypara" class="para">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat maxime omnis vel voluptate.
+                </p>
+            </div>
+        </div>*/

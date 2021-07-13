@@ -1,0 +1,20 @@
+*{
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: red;
+    border: 5px solid blue;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 45px;
+}
+
+/* 
+Relative works from his actual position.
+Absolute works from taking entire full-screen
+
+Fixed works as fixed at a position.
+*/
