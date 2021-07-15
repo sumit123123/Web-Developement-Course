@@ -4,57 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Document</title>
     <link rel="stylesheet" href="Index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <form action="">
-        
-        <div>
-            <label for="NameTag">Name</label>
+    <form action="Post" class="Forms">
+        <div class="Inputs">
+            <label for="Name" id="Name">Name</label>
+            <input type="text" id="Name" class="Input_Text">
         </div>
-        <div class="Space">
-            <input type="text" id="NameTag" class="inputfields">
+        <div class="Inputs">
+            <label for="Email" id="Emails">Email</label>
+            <input type="email" name="" style="margin-left: 55px;" id="Email" class="Input_Text">
         </div>
-        
-        <div>
-            <label for="ClassTag">Class</label>
+        <div class="Inputs">
+            <label for="Birth">D O B</label>
+            <input type="date" name="" id="Birth" class="Input_Date">
         </div>
-        <div class="Space">
-            <input type="number" id="ClassTag" class="inputfields">
+        <div class="Inputs">
+            <input type="checkbox" name="checkbox" class="Input_check">
+            <span class="Exceptions">Tearms and Condition.</span>
         </div>
-
-        <div>
-            <label for="percentageTag">Prevecious Year %</label>
+        <div class="Inputs">
+            <input type="submit" class="Subbtn" value="Submit">
+            <p class="P">You can Add Further inputs according to your need ha but check their is css written for Inputs texts and Date and Checkbox and Buttons.You can also use that for your work.</p>
         </div>
-        <div class="space">
-            <input type="number" id="percentageTag" class="inputfields">
-        </div>
-
-        <div>
-            <label for="DateTag">D.O.B</label>
-        </div>
-        <div class="space">
-            <input type="date" name="" id="DateTag" class="inputfields">
-        </div>
-
-        <div>
-            <label for="PhoneTag">Phone Number</label>
-        </div>
-        <div class="space">
-            <input type="number" name="" id="PhoneTag" class="inputfields">
-        </div>
-
-        <div>
-            <label for="SubmitTag">Submit</label>
-            <label style="margin-left: 20px;" for="ResetFormTag">Reset</label>
-        </div>
-        <div class="space">
-            <input type="submit" value="submit" id="SubmitTag" class="regbuttons">
-            <input type="reset" value="reset" id="ResetFormTag" class="regbuttons">
-        </div>
-
     </form>
 </body>
 </html>
