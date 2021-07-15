@@ -1,0 +1,34 @@
+.box{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#box1{
+    background-color: rgb(243, 20, 20);
+    top: 180px;
+    left: 250px;
+    z-index: 1;
+}
+
+#box2{
+    background-color: blue;
+    left: 282px;
+    top: 213px;
+    z-index: 2;
+}
+
+#box3{
+    top: 254px;
+    left: 325px;
+    background-color: green;
+    
+}
+
+/* 
+The z-index property specifies the stack order of an element.
+
+An element with greater stack order is always in front of an element with a lower stack order.
+*/

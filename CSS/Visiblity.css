@@ -1,0 +1,40 @@
+.box{
+    width: 170px;
+    height: 170px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#box1{
+    background-color: red;
+    position: relative;
+    top: 49px;
+    
+}
+
+#box2{
+    /* visibility: hidden; */
+    /* display: none; */
+    background-color: green;
+    position: relative;
+    top: 14px;
+    
+}
+
+#box3{
+    background-color: yellow;
+}
+
+#box4{
+    background-color: blue;
+}
+
+/* 
+Use of visiblity their are multiple option in visiblity when you hidden it the element area get reserve but when you display it none the element get also hidden and no any reserve space create
+*/
+
+/* 
+<div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+*/
