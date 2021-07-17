@@ -1,45 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Borders & Background</title>
-    <link rel="stylesheet" href="Box Model.css">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet"> -->
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid black;
+            margin: 5px;
+            width: 280px;
+            height: 400px;
+        }
+
+        .Img{
+            width: 280px;
+            height: 200px;
+        }
+
+        .h-3tags{
+            margin-left: 15px;
+        }
+
+        .fonts{
+            font-family: cursive;
+            font-size: medium;
+        }
+
+        .ptags{
+            margin-left: 15px;
+            box-sizing: border-box;
+            margin-right: 15px;
+            margin-top: 5px;
+        }
+
+        .detailsTag{
+            margin-top: 5px;
+            margin-left: 15px;
+        }
+
+        
+    </style>
 </head>
-
 <body>
-    
-    <div class="container">
-        <h1>Box 1</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptatem sint quasi voluptatum aspernatur! Officia consequuntur eos tempora, neque perspiciatis nobis beatae reprehenderit?</p>
-    </div>
+    <div class="box">
+        <img class="Img" src="Img/the_blue_pier_by_ellysiumn_ddxn5b5-fullview.jpg" alt="">
+        <div class="fonts h-3tags">
+            <h3>Harry potter</h3>
+        </div>
+        <hr>
+        <div class="fonts ptags">
+            <p>Source:J k Rowling <br> Website:PotterWiki.com</p>
+        </div>
+        <hr>
+        <div class="fonts detailsTag">
 
-    <div class="container">
-        <h1>Box 2</h1>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt sed molestias, asperiores, atque, animi minus ducimus quasi non nihil laboriosam accusantium excepturi quia!
-        </p>
+           <p style="position: relative;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus veniam, quasi, dolorem cupiditate nihil excepturi recusandae velit ad at itaque aliquam nostrum distinctio. Fugit quod saepe vero beatae laborum. Error!</p>
+        </div>
     </div>
-    <div class="container" style="margin-bottom: 17px;">
-        <h1>Box 3</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem officiis at numquam aut dolores repudiandae tempore exercitationem possimus, laboriosam amet pariatur aliquam fugit nihil blanditiis magni dolor.
-        </p>
-    </div>
-    
     
 </body>
-
 </html>
-
-
-<!-- 
-    Methods to implement css in page
-
-    on-line css property get's more important than the external css 
-
-
- -->
