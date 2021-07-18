@@ -4,60 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cards</title>
+    <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
     <style>
-        .box{
+
+        *{
+            font-family: 'Yomogi';
+        }
+
+        .container{
+            width: 25%;
             border: 2px solid black;
-            margin: 5px;
-            width: 280px;
-            height: 400px;
+            height: 475px;
+            background-color: gray;
         }
 
-        .Img{
-            width: 280px;
-            height: 200px;
+        .IMAGE{
+            width: 100%;
+            height: 230px;
         }
 
-        .h-3tags{
-            margin-left: 15px;
+        .heading{
+            margin: 15px;
         }
 
-        .fonts{
-            font-family: cursive;
-            font-size: medium;
+        .heading a{
+            text-decoration: none;
+            color: black;
         }
 
-        .ptags{
-            margin-left: 15px;
-            box-sizing: border-box;
-            margin-right: 15px;
-            margin-top: 5px;
+        .heading p{
+            font-weight: 800;
         }
 
-        .detailsTag{
-            margin-top: 5px;
-            margin-left: 15px;
+        .feedback{
+            position: relative;
+            display: inline;
+            left: 195px;
+            bottom: 12px;
+            cursor: pointer;
         }
 
-        
+        .btn{
+            position: relative;
+            bottom: 29px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 53px;
+            font-weight: bold;
+            background-color: blue;
+            
+            border: 2px solid black;
+        }
     </style>
-</head>
 <body>
-    <div class="box">
-        <img class="Img" src="Img/the_blue_pier_by_ellysiumn_ddxn5b5-fullview.jpg" alt="">
-        <div class="fonts h-3tags">
-            <h3>Harry potter</h3>
-        </div>
-        <hr>
-        <div class="fonts ptags">
-            <p>Source:J k Rowling <br> Website:PotterWiki.com</p>
-        </div>
-        <hr>
-        <div class="fonts detailsTag">
+    <div class="container">
+        <img src="Img/the_blue_pier_by_ellysiumn_ddxn5b5-fullview.jpg"  class="IMAGE" alt="">
 
-           <p style="position: relative;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus veniam, quasi, dolorem cupiditate nihil excepturi recusandae velit ad at itaque aliquam nostrum distinctio. Fugit quod saepe vero beatae laborum. Error!</p>
+        <div class="heading">
+            <h2><a href="https://source.unsplash.com" target="_blank">Unsplash Source</a></h2>
+
+            <p>Source unsplash is a vary good website to get Img api and a large Image galary You can get millions on the topic's lorem10 <a style="color: blue;" href="">More</a></p>
+
+            <button class="btn">
+                <a href="https://source.unsplash.com" style="font-weight: bold; color: white;">Link</a>
+            </button>
+             <img src="Img/Feedback.png" id="feed" class="feedback" alt="">
         </div>
     </div>
-    
 </body>
+
+<script>
+    let Image = document.getElementById("feed");
+
+    Image.addEventListener("click",Img_Change);
+
+    function Img_Change() {
+        let Codes = `
+    <img src="Img/Like.png" class="feedback" alt="">
+                `
+
+        console.log(Codes)
+        console.log(Image)
+
+        Image.innerHTML = "";
+
+        Image.innerHTML = Codes;
+    }
+    
+</script>
+
 </html>
