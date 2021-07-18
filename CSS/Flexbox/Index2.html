@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Tutorial</title>
+    <style>
+        *{
+            font-family: cursive;
+        }
+
+        .box{
+            border: 1px solid red;
+            margin: 10px;
+            width: 350px;
+            height: 180px;
+        }
+
+        .container{
+            border: 2px solid black;
+            display: flex;
+            
+            /* flex-flow: column wrap; */
+            /* flex-direction: column;
+            flex-direction: row-reverse;
+            flex-direction: column-reverse; */
+            flex-direction: row;
+
+            /* Default is row only */
+
+            /* flex-wrap: wrap-reverse; */
+            /* flex-wrap: wrap; */
+            /* flex-flow: column wrap-reverse; */
+
+
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        #box1{
+            /* flex-shrink: 2; */
+            
+            height: 180px;
+            /* flex-shrink: 3;
+            flex-grow: 3; */
+
+           
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Flexbox Tutorial</h1>
+
+    <div class="container">
+        <div class="box" id="box1">
+            First Box  
+        </div>
+
+        <div class="box" id="box2">
+            Second Box 
+        </div>
+
+        <div class="box" id="box3">
+            Third Box 
+        </div>
+
+        <!-- <div class="box" id="box4">
+            Fourth Box 
+        </div>
+
+        <div class="box" id="box5">
+            Fifth Box 
+        </div>
+
+        <div class="box" id="box6">
+            Sixth box 
+        </div> -->
+    </div>
+</body>
+</html>
