@@ -58,6 +58,10 @@
             
             border: 2px solid black;
         }
+
+        @media (min-width:360px) and (max-width:640){
+            
+        }
     </style>
 <body>
     <div class="container">
@@ -75,25 +79,5 @@
         </div>
     </div>
 </body>
-
-<script>
-    let Image = document.getElementById("feed");
-
-    Image.addEventListener("click",Img_Change);
-
-    function Img_Change() {
-        let Codes = `
-    <img src="Img/Like.png" class="feedback" alt="">
-                `
-
-        console.log(Codes)
-        console.log(Image)
-
-        Image.innerHTML = "";
-
-        Image.innerHTML = Codes;
-    }
-    
-</script>
 
 </html>

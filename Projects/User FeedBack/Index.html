@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User_Feedback</title>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Loop:ital@1&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            width: 75%;
+            height: 250px;
+            background-color: silver;
+            border: 2px solid black;
+            margin-left: 10%;
+            border-radius: 40px;
+        }
+
+        .Fonts{
+            font-family: 'Zen Loop', cursive;
+            font-size: 41px;
+            position: relative;
+            bottom: 32px;
+        }
+
+        h3{
+            text-align: center;
+        }
+        .text{
+            position: relative;
+            bottom: 75px;
+            left: 58px;
+            border: 1px solid black;
+            /* border-radius: 30px; */
+            padding-left: 15px;
+            padding-top: 15px;
+        }
+
+        .btn{
+            position: relative;
+            background-color: aqua;
+            color: black;
+            border: 1px solid black;
+            padding: 10px;
+            display: inline;
+        }
+
+        .right{
+            left:708px;
+            bottom: 37px;
+            
+        }
+
+        .left{
+            bottom: 37px;
+            left: 72px;
+        }
+
+        .btn:hover{
+            background-color: chartreuse;
+            color: red;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 class="Fonts">Feed back</h3>
+        
+        <textarea name="textarea" placeholder="Type here your feed back" id="" cols="110" rows="5" class="text"></textarea>
+        
+        <button class="btn left">Edit Review</button>
+
+        <button class="btn right">Submit</button>
+    </div>
+
+    
+</body>
+</html>
