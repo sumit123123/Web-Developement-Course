@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .boxes{
+            border: 2px solid rgb(37, 34, 34);
+            margin-left: 15px;
+            text-align: center;
+            margin: 15px;
+            width: 255px;
+            height: 150px;
+            box-shadow: 4px 4px 13px 2px rgb(23, 255, 23);
+        }    
+        
+        .boxes h2{
+            text-shadow: -1.9px -1.9px 4.5px rgb(76, 76, 246);
+        }
+
+        #Box-1{
+            box-shadow: -4px -4px 13px 2px rgb(23, 76, 246);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="Box-1" class="boxes">
+            <h2>Java</h2>
+            <P>Java is a very popular programming language used in the Android Development</P>
+        </div>
+        <div class="boxes">
+            <h2>PHP</h2>
+            <P>PHP is a very popular programming language used as backend in the Web Development</P>
+        </div>
+        <div class="boxes">
+            <h2>SQL</h2>
+            <P>SQL is a very popular programming language used in the Data base</P>
+        </div>
+    </div>
+</body>
+</html>

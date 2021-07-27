@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .container{
+            display: flex;
+            padding: 15px;
+            flex-flow: row;
+            flex-wrap: wrap;
+        }
+
+        .boxes{
+            border: 2px solid rgb(109, 102, 102);
+            margin: 15px;
+            text-align: center;
+            width: 250px;
+            height: 255px;
+            /* Box shadows */
+            box-shadow: 4px 4px 12px 6px rgb(109, 102, 102);
+            box-shadow: -4px -4px 12px 6px rgb(133, 255, 32);
+
+            /* 
+            All number positions
+            1 and 2 Used for position of 
+            */
+        }
+
+        .boxes h2{
+            text-shadow: 2px 2px rgb(250, 47, 47);
+        }
+
+        .boxes p{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="boxes">
+            <h2>C</h2>
+            <p>C is a awasome language. It is fastest language in all</p>
+        </div>
+        <div class="boxes">
+            <h2>Python</h2>
+            <p>Python is the new language used in all sectors Machine learning, Data science, AI Developement and web development</p>
+        </div>
+        <div class="boxes">
+            <h2>JS</h2>
+            <p>Javascript is used in the backend of the website. It is also a very awasome language</p>
+        </div>
+    </div>
+</body>
+</html>
