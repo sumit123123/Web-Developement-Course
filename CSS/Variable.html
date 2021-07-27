@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        :root{
+            --primarycolor:rgb(255,220,105);
+            --border-color:yellow;
+        }
+       .box{
+           --second-margin:45px;
+           background-color: var(--primarycolor);
+           height: 155px;
+           width: 200px;
+           margin: 2px 9px;
+
+           border: 5px solid var(--border-color);
+       } 
+
+       .container{
+           display: flex;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- 
+
+    Variable and customes properties
+    As we know we have to set a single value for multiple properties so all we did not no the value so for that problem css have vairables. As in programming variable is used as a operator used for assign a value for it
+
+    in css we can use 
+    --second-margin:value; is set as the first value
+    to use in the property
+
+    How to type 
+    property: var(--second-margin:value;)
+
+    Note this above value will only inside the written sudo selector of class or id
+
+    To used it a global way
+
+    type this syntex
+
+    :root{
+        --variablename:value;
+    }
+
+    This will work as globally
+
+    we can also use this syntax
+
+    --variable:value;
+ -->
