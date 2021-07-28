@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container{
+            display: flex;
+        }
+
+        .btn {
+            padding: 15px;
+            margin: 7px 10px;
+            position: relative;
+            font-weight: 500;
+            background-color: khaki;
+            border-radius: 17px;
+            animation-name: Button_Spin;
+            animation-duration: 5s;
+            animation-timing-function: initial;
+            animation-fill-mode: forwards;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes Button_Spin {
+            from {
+               left: 0%;
+            }
+
+            to {
+                left: 90%;
+            }
+
+            0%{
+                background-color: lawngreen;
+            }
+
+            50%{
+                background-color: rgb(255, 187, 0);
+                
+            }
+
+            100%{
+                background-color: khaki;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <button class="btn">
+            Modi Ji
+        </button>
+    </div>
+</body>
+
+</html>
