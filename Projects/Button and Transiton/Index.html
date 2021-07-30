@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn {
+            padding: 14px;
+            margin: 7px 110px;
+            cursor: pointer;
+            background-color: chartreuse;
+            border: 1px solid black;
+            flex-wrap: wrap;
+            font-weight: 700;
+            animation-name: Button_1;
+            animation-duration: 1.2s;
+            animation-timing-function: initial;
+            animation-fill-mode: forwards;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: infinite;
+            transition-property: all;
+            transition-delay: 6s;
+            transition-timing-function: ease-in-out;
+            transition-duration: 6s;
+        }
+
+        @keyframes Button_1 {
+            0%{
+                background-color: lawngreen;
+            }
+
+            50%{
+                background-color: rgb(255, 187, 0);
+                
+            }
+
+            100%{
+                background-color: khaki;
+            }
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .btn:hover{
+            height: 250px;
+            width: 150px;
+            background-color: coral;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <button class="btn" id="box-1">
+                Term-1
+            </button>
+            <button class="btn" id="box-2">
+                Term-2
+            </button>
+            <button class="btn" id="box-3">
+                Term-3
+            </button>
+            <button class="btn" id="box-4">
+                Term-4
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            display: flex;
+            height: 150px;
+            width: 455px;
+            background-color: chartreuse;
+            justify-content: center;
+            align-items: center;
+            transition: all ease-in-out 1s 1s;
+        }
+
+        #box:hover{
+            background-color: chocolate;
+            font-size: larger;
+            height: 250px;
+            width: 95%;
+            border-radius: 25%;
+            rotate: 55px;
+        }
+
+        /* 
+        To use these properties on the all element or a single element then type
+
+        all for all element 
+        property for the specific element
+        */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box">
+            This is a box
+        </div>
+    </div>
+</body>
+</html>

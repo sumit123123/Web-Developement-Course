@@ -1,0 +1,211 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: var(--Primary-font)
+}
+
+:root{
+    --Primary-font:'Roboto', sans-serif;
+
+    --Secondary-font:'Yomogi', cursive;
+}
+
+/* Navigation Bar */
+
+#navbar{
+    display: flex;
+   
+    align-items: center;
+    
+}
+
+/*Navbar: Logo and Image */
+
+.logo{
+    margin: 1px 8px;
+}
+
+.logo img{
+    padding: 1px 7px;
+    height: 51px;
+}
+
+/*Navbar: Li items */
+
+ul{
+    display: flex;
+}
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0px 58px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    margin: 0px 58px;
+    padding: 0px 20px;
+}
+
+
+/* Home section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 19px;
+    height: 200px;
+}
+
+#home::before{
+    content: "";
+    background: url("../CSS/Images/BG.jpg") no-repeat center center;
+    position: absolute;
+    width: 100%;
+    height: 54%;
+    z-index: -1;
+    opacity: 0.75;
+}
+
+/* Utility class */
+
+.Heading-primary{
+    font-family: var(--Secondary-font);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#home p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    font-family: var(--Secondary-font);
+}
+
+#home h2{
+    
+    color: white;
+    text-align: center;
+}
+
+.btn{
+    padding: 0.9rem;
+    margin: 30px 1px;
+    background-color: yellow;
+    border: 1px solid black;
+    font-weight: 700;
+    border-radius: 12px;
+}
+
+.btn:hover{
+    animation-name: Changing-color;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-delay: 0.7s;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 0.7;
+    transition-duration: 3s;
+}
+
+@keyframes Changing-color {
+    10%{
+        background-color: yellow;
+        
+        transform: scale(0.5);
+    }
+    
+    25%{
+        background-color: rgb(255, 157, 0);
+        transform: scale(1);
+        transform: scale(1.5);
+    }
+
+    50%{
+        background-color: rgb(199, 143, 39);
+        transform: scale(1);
+        transform: scale(0.95);
+    }
+
+    100%{
+        background-color: yellow;
+        transform: scale(1);
+        transform: scale(1);
+        padding: 12px 12px;
+        font-size: 1.3rem;
+    }
+}
+
+/* services */
+
+#service-center{
+    margin: 110px 0px;
+}
+
+.h2-primary{
+    display: flex;
+    justify-content: center;
+    font-size: 2.4rem;
+    padding-bottom: 24px;
+    font-family: var(--Secondary-font);
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    margin: 7px 0px;
+    
+}
+
+.cards{
+    height: 440px;
+    width: 300px;
+    margin: 0px auto;
+    box-shadow: 7px 7px 2px grey;
+    border: 1px solid black;
+}
+
+.cards img{
+    height: 250px;
+    width: 300px;
+}
+
+.center{
+    text-align: center;
+    font-family: var(--Secondary-font);
+}
+
+.Card_h2{
+    text-align: center;
+    font-family: var(--Secondary-font);
+    padding-top: 5px;
+}
+
+.cards:hover{
+    transform: scale(1.2);
+    transition: ease-in 1s 0.5s;
+    box-shadow: 7px 7px 15px grey;
+}
